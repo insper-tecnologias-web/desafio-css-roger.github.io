@@ -2,8 +2,8 @@
 
 DUPLA/TRIO:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
+- Pedro Toledo Piza Civita
+- Arthur Tamm
 - DIGITE O NOME DO TERCEIRO INTEGRANTE
 - Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
 
