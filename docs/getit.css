@@ -29,7 +29,7 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +77,130 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+
+.appbar{
+  display: flex;
+  align-items: center;
+  background-color: #f7d736;
+  height: 45px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.logo{
+  width: auto;
+  height: 70%;
+  padding-right: 0.5rem;
+  padding-left: 0.3rem;
+}
+
+.container{
+  padding-top: 2rem;
+}
+.form-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+  margin:auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.form-card-title{
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.autoresize{
+  border: none;
+  resize: none;
+}
+
+.card-container{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 7rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 0.5rem;
+  font-family: permanent marker;
+  margin:0.8rem;
+  border-radius: 10px;
+}
+
+.card-title{
+  padding-bottom: 1rem;
+}
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(5deg);
+}
+
+.card-rotation-2{
+  transform: rotate(3deg);
+}
+
+.card-rotation-3{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-5{
+  transform: rotate(0deg);
+}
+
+.card-rotation-6{
+  transform: rotate(0deg);
+}
+
+.card-rotation-7{
+  transform: rotate(2deg);
+}
+
+.card-rotation-8{
+  transform: rotate(-2deg);
+}
+
+.card-rotation-9{
+  transform: rotate(8deg);
+}
+
+.card-rotation-10{
+  transform: rotate(-8deg);
+}
+
+.card-rotation-11{
+  transform: rotate(7deg);
+}
