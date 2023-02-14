@@ -29,10 +29,173 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+
+.appbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 0 20px;
+  height: 75px;
+  background-color: #f7d736;
+  margin-bottom: 2%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.subtitle {
+  padding: 0 20px;
+}
+
+.logo {
+  width: 100px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  margin: 50px;
+  width: 30%;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.form-card-title{
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 1.5em;
+}
+
+.autoresize {
+  border: none;
+  width: 100%;
+  height: 30px;
+  font-size: 1em;
+}
+
+.card {
+  display: flex;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  padding:  20px;
+  height: 120px;
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-5deg);
+}
+
+.card-rotation-11 {
+  transform: rotate(6deg);
+}
+
+.card-title {
+  font-size: 1.5em;
+  color: #2c2c2c;
+}
+
+.card-subtitle {
+  font-size: 1em;
+  color: #4c4c4c;
+}
+
+.card-text {
+  font-size: 0.8em;
+  color: #4c4c4c;
+}
+
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+
+  width: 100%;
+
 
   overflow: hidden;
 
@@ -77,4 +240,8 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+* {
+  outline-color: red;
+}
