@@ -4,8 +4,7 @@ DUPLA/TRIO:
 
 - Pedro Toledo Piza Civita
 - Arthur Tamm
-- DIGITE O NOME DO TERCEIRO INTEGRANTE
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-roger.github.io/
 
 ## Desafio CSS
 
