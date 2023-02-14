@@ -242,8 +242,3 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} 
-
-* {
-  outline-color: red;
-}
